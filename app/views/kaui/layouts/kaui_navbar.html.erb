@@ -14,7 +14,7 @@
             <% end %>
 
             <% if can?(:create, Kaui::Account) && tenant_selected? %>
-                <%= link_to '<i class="fa fa-plus-square"></i>&nbsp;Create new account'.html_safe, kaui_engine.new_account_path %>
+                <%= link_to '<i class="fa fa-plus-square"></i>&nbsp;Account'.html_safe, kaui_engine.new_account_path %>
             <% end %>
         <% end %>
       </div>
